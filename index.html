@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-IB驱动安装" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/07/08/IB%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/" class="article-date">
+  <time class="dt-published" datetime="2021-07-08T03:01:11.471Z" itemprop="datePublished">2021-07-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="IB安装教程"><a href="#IB安装教程" class="headerlink" title="IB安装教程"></a>IB安装教程</h1><h3 id="1-驱动挂载"><a href="#1-驱动挂载" class="headerlink" title="1.驱动挂载"></a>1.驱动挂载</h3><p>172.22.72.4下有centOS7.6、8.0、8.2对应的IB驱动</p>
+<p><img src="C:\Users\闫茹艳\AppData\Roaming\Typora\typora-user-images\image-20210707150554513.png" alt="image-20210707150554513"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount 172.22.72.4:/mnt/pxe /mnt</span><br></pre></td></tr></table></figure>
+
+<p><img src="C:\Users\闫茹艳\Desktop\QQ图片20210707151744.png" alt="QQ图片20210707151744"></p>
+<p><a target="_blank" rel="noopener" href="https://huaban.com/pins/4054105817/">🦄️露从今夜白采集到教程图片(1图)_花瓣 (huaban.com)</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mnt/soft/mlnx/MLNX_OFED_LINUX-5.1-2.3.7.1-rhel7.6-x86_64</span><br></pre></td></tr></table></figure>
+
+<p>2.安装</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./mlnxofedinstall</span><br></pre></td></tr></table></figure>
+
+<p>3.验证</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ip a</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/07/08/IB%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/" data-id="ckqujol1m000038vx2kbi2ci8" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-cuda安装" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/07/08/cuda%E5%AE%89%E8%A3%85/" class="article-date">
+  <time class="dt-published" datetime="2021-07-08T03:01:11.463Z" itemprop="datePublished">2021-07-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="CUDA安装教程"><a href="#CUDA安装教程" class="headerlink" title="CUDA安装教程"></a>CUDA安装教程</h1><h2 id="一、显卡驱动"><a href="#一、显卡驱动" class="headerlink" title="一、显卡驱动"></a>一、显卡驱动</h2><h3 id="1-下载显卡驱动前需要先下载elfutils-libelf-devel"><a href="#1-下载显卡驱动前需要先下载elfutils-libelf-devel" class="headerlink" title="1.下载显卡驱动前需要先下载elfutils-libelf-devel"></a>1.下载显卡驱动前需要先下载elfutils-libelf-devel</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install elfutils-libelf-devel</span><br></pre></td></tr></table></figure>
+
+<p>在<a target="_blank" rel="noopener" href="https://www.nvidia.cn/geforce/drivers/">官方 GeForce 驱动程序 | NVIDIA</a>选择合适的驱动并下载</p>
+<p><img src="file:///E:\Profession\DW\DWsetup\ksohtml2968\wps15.png" alt="img"></p>
+<h3 id="2-禁用nouveau"><a href="#2-禁用nouveau" class="headerlink" title="2.禁用nouveau"></a>2.禁用nouveau</h3><p>在root权限下执行以下命令：</p>
+<p>禁用：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/default/grub</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;GRUB_CMDLINE_LINUX&quot;中添加 rd.driver.blacklist=nouveau nouveau.modeset=0</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grub2-mkconfig -o /boot/grub2/grub.cfg</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/modprobe.d/blacklist.conf</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">添加 blacklist nouveau</span><br></pre></td></tr></table></figure>
+
+<p>备份：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dracut /boot/initramfs-$(uname -r).img $(uname -r)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-安装显卡驱动"><a href="#3-安装显卡驱动" class="headerlink" title="3.安装显卡驱动"></a>3.安装显卡驱动</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">init 3</span><br></pre></td></tr></table></figure>
+
+<p>修改权限</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x NVIDIA-Linux-x86_64-440.64.run</span><br></pre></td></tr></table></figure>
+
+<p>安装</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./NVIDIA-Linux-x86_64-440.64.run</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-验证："><a href="#4-验证：" class="headerlink" title="4.验证："></a>4.验证：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure>
+
+<p>4.1如果发生错误：</p>
+<p>​    查看日志：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /var/log/nvidia-install.log</span><br></pre></td></tr></table></figure>
+
+<p>​    参考博客：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://blog.csdn.net/Jianyao_Yu/article/details/89141302</span><br></pre></td></tr></table></figure>
+
+<h2 id="二、CUDA安装"><a href="#二、CUDA安装" class="headerlink" title="二、CUDA安装"></a>二、CUDA安装</h2><h3 id="1-下载CODA地址"><a href="#1-下载CODA地址" class="headerlink" title="1.下载CODA地址"></a>1.下载CODA地址</h3><p><a target="_blank" rel="noopener" href="https://developer.nvidia.com/cuda-toolkit-archive">https://developer.nvidia.com/cuda-toolkit-archive</a></p>
+<p>选择合适的版本（以10.1为例）：</p>
+<p><img src="file:///E:\Profession\DW\DWsetup\ksohtml18264\wps1.jpg" alt="img"></p>
+<p><img src="file:///E:\Profession\DW\DWsetup\ksohtml18264\wps2.jpg" alt="img"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./cuda_10.1.243_418.87.00_linux.run</span><br></pre></td></tr></table></figure>
+
+<p>输入accept;</p>
+<p>安装选项X是选中，空是未选中，<strong>安装的时候就不要勾选Driver选项了</strong>，然后选择install下载即可。</p>
+<h3 id="2-配置bash"><a href="#2-配置bash" class="headerlink" title="2.配置bash"></a>2.配置bash</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/lib64</span><br><span class="line">export PATH=$PATH:/usr/local/cuda-10.1/bin</span><br><span class="line">export CUDA_HOME=/usr/local/cuda-10.1</span><br><span class="line">export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/lib64:/usr/local/cuda-10.1/lib</span><br></pre></td></tr></table></figure>
+
+<p>激活：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/u010212101/article/details/104753998">https://blog.csdn.net/u010212101/article/details/104753998</a></p>
+<h3 id="3-验证"><a href="#3-验证" class="headerlink" title="3.验证"></a>3.验证</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lspci | grep -i vga</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvcc -V</span><br></pre></td></tr></table></figure>
+
+<h2 id="三、Cudnn覆盖"><a href="#三、Cudnn覆盖" class="headerlink" title="三、Cudnn覆盖"></a>三、Cudnn覆盖</h2><p>下载cudnn-7.5-linux-x64-v5.0-ga.tgz（当时是用户提供的，具体在哪下你找一下吧，完善一下文档）可以点<a target="_blank" rel="noopener" href="https://developer.nvidia.com/zh-cn/cudnn">NVIDIA cuDNN | NVIDIA Developer</a>这个试试，注意要和CUDA版本一致。</p>
+<p>解压</p>
+<p>打开文件夹</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd cuda</span><br></pre></td></tr></table></figure>
+
+<p>覆盖</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp lib64/* /usr/local/cuda/lib64/</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp include/* /usr/local/cuda/include/</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/07/08/cuda%E5%AE%89%E8%A3%85/" data-id="ckqujol1x000138vxbkzm2id8" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/07/08/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2021-07-08T02:58:17.362Z" itemprop="datePublished">2021-07-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/07/08/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/07/08/hello-world/" data-id="ckqujol1y000238vx1kdr2fsp" data-title="Hello World" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/07/08/IB%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/08/cuda%E5%AE%89%E8%A3%85/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/08/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
